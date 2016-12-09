@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+from thinkbayes import Pmf
+
+# Defining the pmf for a dice
+pmfDice = Pmf()
+for x in [1,2,3,4,5,6]:
+    pmf.Set(x, 1.0/6.0)
+    
+# Defining pmf for a 
